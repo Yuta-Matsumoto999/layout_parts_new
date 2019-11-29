@@ -25,6 +25,6 @@
   background: #ecf1f2;
 }
 
-.text tr:last-child{
+.text tbody tr:last-child{
   border-top: dashed #000 2px;
 }
