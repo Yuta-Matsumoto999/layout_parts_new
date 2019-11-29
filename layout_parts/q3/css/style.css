@@ -14,14 +14,7 @@
   border: solid #dedede 1px;
 }
 
-tr:first-child{
-  background: #2244aa;
-  font-size: 18px;
-  line-height: 26px;
-  color: aliceblue;
-}
-
-td:first-child{
+th{
   background: #2244aa;
   font-size: 18px;
   line-height: 26px;
