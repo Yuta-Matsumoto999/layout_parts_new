@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.q6_content{
+.q6_text-align{
   text-align: center;
 }
 
@@ -11,7 +11,7 @@
   width: 90px;
 }
 
-.q6_content2{
+.q6_margin{
   width: 90px;
   padding: 10px;
   text-align: center;
@@ -19,7 +19,7 @@
   margin: 0 auto;
 }
 
-.q6--around1{
+.q6--around--table{
   display: table;
 }
 
@@ -35,37 +35,35 @@
   background: #fff;
 }
 
-.q6--around2{
+.q6--around--flex{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.q6_content4{
+.q6_content_flex{
   background: #fff;
   padding: 10px;
 }
 
-.q6_box1{
+.q6_box_stable{
   position: relative;
 }
 
-.q6_box_content{
+.q6_box_content_stable{
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
-  width: 110px;
-  height: 30px;
 }
 
-.q6_box2{
+.q6_box_flexible{
   position: relative;
 }
 
-.q6_box_content2{
+.q6_box_content_flexible{
   position: absolute;
   top: 50%;
   left: 50%;

@@ -7,48 +7,48 @@
   background-color: #ecf1f2;
 }
 
-.親box{
+.parent-box{
   width: 100%;
   display: table;
   margin-top: 20px;
   text-align: center;
 }
 
-.親box:first-child{
+.parent-box:first-child{
   margin-top: 0;
 }
 
-.box{
+.content{
   display: table-cell;
   padding: 20px;
 }
 
-.box1{
+.box_pink{
   width: 100px;
   background: #fdc8b8;
   }
 
-.box2{
+.box_parple{
   width: auto;
   background: #e0abd9;
 }
 
-.box3{
+.box_blue{
   width: 100px;
   background: #b6d8ed;
 }
 
-.box4{
+.box_yellow{
   width: auto;
   background: #e5d32e;
 }
 
-.box5{
+.box_red{
   width: auto;
   background: #ec8f9a;
 }
 
-.box6{
+.box_green{
   width: 500px;
   background: #8fdcad;
 }

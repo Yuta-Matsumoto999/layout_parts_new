@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-.カロリー表{
+.text{
   table-layout: fixed;
   width: 100%;
   border: solid #dedede 1px;
 }
 
-.tr,th,td{
+.text th,.text td{
   text-align: center;
   padding: 10px;
   font-size: 16px;
@@ -14,17 +14,17 @@
   border: solid #dedede 1px;
 }
 
-th{
+.text th{
   background: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color: aliceblue;
 }
 
-tr:nth-child(odd):nth-child(n+3):nth-child(-n+5){
+.text tr:nth-child(odd){
   background: #ecf1f2;
 }
 
-tr:last-child{
+.text tr:last-child{
   border-top: dashed #000 2px;
 }
