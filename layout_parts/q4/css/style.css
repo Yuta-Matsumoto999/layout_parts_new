@@ -7,60 +7,48 @@
   background-color: #ecf1f2;
 }
 
-.親box1{
-  width: 100%;
-  display: table;
-}
-
-.box1{
-  display: table-cell;
-  width: 100px;
-  background: #fdc8b8;
-  padding: 20px;
-  text-align: center;
-}
-
-.box2{
-  display: table-cell;
-  width: auto;
-  background: #e0abd9;
-  padding: 20px;
-  text-align: center;
-}
-
-.box3{
-  display: table-cell;
-  width: 100px;
-  background: #b6d8ed;
-  padding: 20px;
-  text-align: center;
-}
-
-.親box2{
+.親box{
   width: 100%;
   display: table;
   margin-top: 20px;
+  text-align: center;
+}
+
+.親box:first-child{
+  margin-top: 0;
+}
+
+.box{
+  display: table-cell;
+  padding: 20px;
+}
+
+.box1{
+  width: 100px;
+  background: #fdc8b8;
+  }
+
+.box2{
+  width: auto;
+  background: #e0abd9;
+}
+
+.box3{
+  width: 100px;
+  background: #b6d8ed;
 }
 
 .box4{
-  display: table-cell;
   width: auto;
   background: #e5d32e;
-  padding: 20px;
-  text-align: center;
 }
 
 .box5{
-  display: table-cell;
   width: auto;
   background: #ec8f9a;
-  padding: 20px;
-  text-align: center;
 }
 
 .box6{
-  display: table-cell;
   width: 500px;
   background: #8fdcad;
-  padding: 20px;
 }
