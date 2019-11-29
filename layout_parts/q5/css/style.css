@@ -8,99 +8,67 @@
   margin: 0 auto;
 }
 
-.box1{
+.content{
   position: absolute;
-  top: 40px;
-  left: 200px;
-  text-align: center;
-  line-height: 100px;
-  background: #ffefd3;
   width: 100px;
   height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box1{
+  top: 40px;
+  left: 200px;
+  background: #ffefd3;
   z-index: 10;
 }
 
 .box2{
-  position: absolute;
   top: 120px;
   right: 120px;
-  text-align: center;
-  line-height: 100px;
   background: #7084de;
-  width: 100px;
-  height: 100px;
   z-index: 20;
 }
 
 .box3{
-  position: absolute;
   top: 200px;
   right: 40px;
-  text-align: center;
-  line-height: 100px;
   background: #d0ecea;
-  width: 100px;
-  height: 100px;
   z-index: 30;
 }
 
 .box4{
-  position: absolute;
   bottom: 120px;
   right: 120px;
-  text-align: center;    
-  line-height: 100px;
   background: #8b7a5e;
-  width: 100px;
-  height: 100px;
   z-index: 40;
 }
 
 .box5{
-  position: absolute;
   bottom: 40px;
   right: 200px;
-  text-align: center;
-  line-height: 100px;
   background: #9fd6d2;
-  width: 100px;
-  height: 100px;
   z-index: 50;
 }  
 
 .box6{
-  position: absolute;
   bottom: 120px;
   left: 120px;
-  text-align: center;
-  line-height: 100px;
   background: #fffee4;
-  width: 100px;
-  height: 100px;
   z-index: 60;
 }
 
 .box7{
-  position: absolute;
   top: 200px;
   left: 40px;
-  text-align: center;
-  line-height: 100px;
   background: #deae70;
-  width: 100px;
-  height: 100px;
   z-index: 70;
 }
 
 .box8{
-  position: absolute;
   top: 120px;
   left: 120px;
-  text-align: center;
-  line-height: 100px;
   background: #de70cf;
-  width: 100px;
-  height: 100px;
   z-index: 80;
 }
 
@@ -108,11 +76,7 @@
   position: fixed;
   top: 10px;
   left: 10px;
-  text-align: center;
-  line-height: 100px;
   background: #2b69a3;
-  width: 100px;
-  height: 100px;
 }
 
 .box8::after{
