@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.カロリー表{
+  table-layout: fixed;
+  width: 100%;
+  border: solid #dedede 1px;
+}
 
-/* 回答はここに書いてね */
+.tr,th,td{
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 22px;
+  border: solid #dedede 1px;
+}
+
+tr:first-child{
+  background: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color: aliceblue;
+}
+
+td:first-child{
+  background: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+  color: aliceblue;
+}
+
+tr:nth-child(odd):nth-child(n+3):nth-child(-n+5){
+  background: #ecf1f2;
+}
+
+tr:last-child{
+  border-top: dashed #000 2px;
+}
