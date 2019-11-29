@@ -1,5 +1,126 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.q5-content{
+  width: 500px;
+  height: 500px;
+  background: #ecf1f2;
+  position: relative;
+  margin: 0 auto;
+}
 
-/* 回答はここに書いてね */
+.box1{
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  text-align: center;
+  line-height: 100px;
+  background: #ffefd3;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+}
+
+.box2{
+  position: absolute;
+  top: 120px;
+  right: 120px;
+  text-align: center;
+  line-height: 100px;
+  background: #7084de;
+  width: 100px;
+  height: 100px;
+  z-index: 20;
+}
+
+.box3{
+  position: absolute;
+  top: 200px;
+  right: 40px;
+  text-align: center;
+  line-height: 100px;
+  background: #d0ecea;
+  width: 100px;
+  height: 100px;
+  z-index: 30;
+}
+
+.box4{
+  position: absolute;
+  bottom: 120px;
+  right: 120px;
+  text-align: center;    
+  line-height: 100px;
+  background: #8b7a5e;
+  width: 100px;
+  height: 100px;
+  z-index: 40;
+}
+
+.box5{
+  position: absolute;
+  bottom: 40px;
+  right: 200px;
+  text-align: center;
+  line-height: 100px;
+  background: #9fd6d2;
+  width: 100px;
+  height: 100px;
+  z-index: 50;
+}  
+
+.box6{
+  position: absolute;
+  bottom: 120px;
+  left: 120px;
+  text-align: center;
+  line-height: 100px;
+  background: #fffee4;
+  width: 100px;
+  height: 100px;
+  z-index: 60;
+}
+
+.box7{
+  position: absolute;
+  top: 200px;
+  left: 40px;
+  text-align: center;
+  line-height: 100px;
+  background: #deae70;
+  width: 100px;
+  height: 100px;
+  z-index: 70;
+}
+
+.box8{
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  text-align: center;
+  line-height: 100px;
+  background: #de70cf;
+  width: 100px;
+  height: 100px;
+  z-index: 80;
+}
+
+.box9{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  line-height: 100px;
+  background: #2b69a3;
+  width: 100px;
+  height: 100px;
+}
+
+.box8::after{
+  content: "";
+  background: #ffefd3;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
