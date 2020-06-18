@@ -9,7 +9,6 @@
   border: solid 5px #222;
   border-radius: 30px;
   position: relative;
-  box-sizing: border-box;
 }
 
 .q9_box:after{
